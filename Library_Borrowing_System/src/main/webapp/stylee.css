@@ -1,0 +1,103 @@
+    html,body {
+            /*margin: 0;
+            padding: 0;
+            height:97%;
+            font-family: Arial, sans-serif;
+       		background-image: url('https://media.istockphoto.com/id/1498878143/photo/book-stack-and-open-book-on-the-desk-in-modern-public-library.jpg?s=612x612&w=0&k=20&c=vRcxdgfHSFJkow6DNPtaL9DT_ttdMGWel-qRLEzkQEI='); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white; */
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #90CAF9;
+            color: white;
+            margin-top: 3%;
+        }
+        .container {
+           /* background-color: rgba(0, 0, 0, 0.7); */
+            background: rgba(30, 60, 114, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+            width: 50%;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 4px 8px;
+            margin: 10px;
+            font-size: 18px;
+            color: black;
+            background-color: white; 
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            
+        } 
+           /* Submit button styling */
+    #submitButton {
+        color: black;
+        background-color: #98FB98; 
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s; 
+    }
+
+    /* Back to Home button */
+    #backButton {
+        color: black;
+        background-color: #f08080; 
+        cursor: pointer;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        display: inline-block;
+        text-decoration: none; 
+        border-radius: 5px; 
+        margin-top: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    /* Hover effects */
+    #submitButton:hover {
+        transform: scale(1.1); 
+        background-color: #6bb46f; 
+    }
+     #backButton:hover {
+        transform: scale(1.1);       
+    }
+    .form-container {
+    width: 100%;
+    max-width: 340px;
+    margin: 30px auto; 
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+	}
+	
+	/* Form field alignment for side-by-side layout */
+	.form-row {
+	    display: flex;
+	    align-items: center;
+	    margin-bottom: 15px; 
+	}
+	
+	.form-row label {
+	    width: 30%; 
+	    font-size: 16px;
+	    font-weight: bold;
+	    color: #333; 
+	    margin-right: 10px; 
+	    text-align: right; 
+	}
+	
+	.form-row input {
+	    width: 70%; 
+	    padding: 10px;
+	    font-size: 16px;
+	    border: 1px solid #ccc;
+	    border-radius: 5px; 
+	    outline: none; 
+	}

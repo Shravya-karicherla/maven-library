@@ -1,0 +1,26 @@
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px; 
+        border: 1px solid white;
+        text-align: center;
+    }
+    th {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .pagination {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .pagination a {
+        color: black;
+         background-color:#75a3a3;
+        padding: 4px 7px;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+    .pagination a:hover {
+        background-color:#c2d6d6;
+    }
